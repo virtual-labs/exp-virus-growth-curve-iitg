@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             caption: 'Step 7: Perform plaque assay on the collected sample.'
         },
         {
-            src: './images/Step8.mp4',
+            src: './images/Step8new.mp4',
             caption: 'Step 8: Use methanol to fix cells.'
         },
         {
