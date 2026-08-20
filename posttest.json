@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Why are host cells selected in the logarithmic phase for this experiment?",
+    "answers": {
+      "a": "They are dead cells",
+      "b": "They are metabolically active and susceptible to infection",
+      "c": "They contain antibodies",
+      "d": "They stop viral replication"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Dead cells cannot support viral replication since viruses require active host cellular machinery to replicate.",
+      "b": "Correct. Cells in the logarithmic (log) phase are actively growing, metabolically vigorous, and present high levels of receptor expression and translation machinery, making them highly susceptible and ideal for hosting viral replication.",
+      "c": "Incorrect. Standard laboratory host cell lines do not produce antibodies unless they are specialized immune hybridomas.",
+      "d": "Incorrect. Logarithmic phase cells facilitate, rather than stop, viral replication."
+    }
+  },
+  {
+    "question": "What is the main purpose of removing unadsorbed viruses after adsorption?",
+    "answers": {
+      "a": "To increase plaque size",
+      "b": "To kill host cells",
+      "c": "To ensure only initially infected cells contribute to growth curve results",
+      "d": "To stop incubation"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. Plaque size is determined by the virus type, agar concentration, and host cell monolayer, not by removing free virus.",
+      "b": "Incorrect. Removing unadsorbed viruses is a wash step to protect the host cells from secondary infections and does not kill them.",
+      "c": "Correct. Washing off unadsorbed free viruses ensures that any future increase in viral titer originates purely from the replication cycle of the initially infected cells, ensuring synchronization.",
+      "d": "Incorrect. Incubation is started immediately after this step to allow the replication cycle to proceed."
+    }
+  },
+  {
+    "question": "Which instrument is commonly used to separate infected cells from free viruses?",
+    "answers": {
+      "a": "Microscope",
+      "b": "Autoclave",
+      "c": "Spectrophotometer",
+      "d": "Centrifuge"
+    },
+    "correctAnswer": "d",
+    "explanations": {
+      "a": "Incorrect. A microscope is used for magnifying and viewing microscopic organisms, not physical separation.",
+      "b": "Incorrect. An autoclave sterilizes equipment and media using high-pressure steam, which would destroy the cells and viruses.",
+      "c": "Incorrect. A spectrophotometer measures the absorbance or transmission of light through a liquid sample.",
+      "d": "Correct. A centrifuge is used to pellet the larger, heavier host cells (along with their adsorbed viruses), leaving the smaller, free unadsorbed virions in the supernatant to be discarded."
+    }
+  },
+  {
+    "question": "Samples are collected at regular intervals mainly to:",
+    "answers": {
+      "a": "Change the medium",
+      "b": "Observe changes in viral titer over time",
+      "c": "Count host cells only",
+      "d": "Destroy virus particles"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. The medium is not replaced during sampling.",
+      "b": "Correct. Periodic sampling allows researchers to track the exact kinetics of viral release, mapping out the duration of the eclipse, latent, and rise periods.",
+      "c": "Incorrect. While host cells are present, the experiment focuses on quantifying viral particles, not counting host cells.",
+      "d": "Incorrect. Samples are collected to preserve and assay the virus, not to destroy it."
+    }
+  },
+  {
+    "question": "Which method is commonly used to estimate infectious viral particles in this experiment?",
+    "answers": {
+      "a": "Plaque assay",
+      "b": "Gram staining",
+      "c": "Catalase test",
+      "d": "Wet mount"
+    },
+    "correctAnswer": "a",
+    "explanations": {
+      "a": "Correct. The plaque assay is the gold-standard method for direct quantification of infectious, viable viral particles (expressed as PFU/mL).",
+      "b": "Incorrect. Gram staining is a differential staining technique used to classify bacterial species based on cell wall properties.",
+      "c": "Incorrect. The catalase test is a biochemical assay used to detect the presence of the catalase enzyme in bacteria.",
+      "d": "Incorrect. A wet mount is used for viewing live microorganisms under a light microscope, which cannot resolve small viral particles."
+    }
+  },
+  {
+    "question": "In a plaque assay, clear zones appear because:",
+    "answers": {
+      "a": "Agar melts completely",
+      "b": "Nutrients are exhausted",
+      "c": "Host cells are lysed due to viral infection",
+      "d": "Bacteria produce pigments"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. Soft agar remains solid at incubation temperatures (37°C) to restrict viral movement.",
+      "b": "Incorrect. Nutrient depletion would cause general cell death, not localized clear circular zones.",
+      "c": "Correct. Clear zones (plaques) are formed when the virus infects, replicates, and lyses host cells locally, spreading only to adjacent cells under the solid overlay.",
+      "d": "Incorrect. Clear zones represent the absence of host cells, not pigment production by bacteria."
+    }
+  },
+  {
+    "question": "Why are samples serially diluted before plating?",
+    "answers": {
+      "a": "To sterilize the virus",
+      "b": "To obtain countable plaque numbers",
+      "c": "To increase host growth",
+      "d": "To change pH"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Dilution decreases concentration but does not sterilize or kill the virus.",
+      "b": "Correct. Undiluted samples contain millions of virions that would completely destroy the monolayer, leaving no visible plaques. Dilution ensures a countable range of plaques (usually 30 to 300).",
+      "c": "Incorrect. Diluting the virus does not promote or affect the growth of host cells on the plate.",
+      "d": "Incorrect. Dilutions are done in buffered solutions to maintain stable pH and protect virion integrity."
+    }
+  },
+  {
+    "question": "During the plateau phase, viral count remains constant because:",
+    "answers": {
+      "a": "No host cells remain for infection",
+      "b": "Virus becomes noninfectious instantly",
+      "c": "Medium changes color",
+      "d": "Adsorption restarts"
+    },
+    "correctAnswer": "a",
+    "explanations": {
+      "a": "Correct. The plateau phase is reached when virtually all susceptible host cells have been infected and lysed, meaning no fresh host cells remain to support further rounds of replication.",
+      "b": "Incorrect. The virions remain infectious in the suspension and do not instantly degrade.",
+      "c": "Incorrect. Medium color changes (due to pH indicators) do not stop replication kinetics directly.",
+      "d": "Incorrect. Free viruses cannot adsorb and replicate because there are no viable host cells left in the culture."
+    }
+  },
+  {
+    "question": "Which of the following is placed on the Y-axis while plotting the growth curve?",
+    "answers": {
+      "a": "Time",
+      "b": "Temperature",
+      "c": "Log PFU/mL",
+      "d": "MOI"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. Time is the independent variable and is plotted on the X-axis.",
+      "b": "Incorrect. Temperature is kept constant in the incubator and is not plotted on the axis.",
+      "c": "Correct. The log-transformed viral titer (log PFU/mL) represents the dependent variable and is plotted on the Y-axis to visualize the exponential kinetics of viral growth.",
+      "d": "Incorrect. Multiplicity of Infection (MOI) is an experimental starting parameter and is not a variable plotted on the growth curve."
+    }
+  },
+  {
+    "question": "If an intracellular virus is to be measured, the collected cells are usually:",
+    "answers": {
+      "a": "Filtered only",
+      "b": "Lysed before assay",
+      "c": "Frozen permanently",
+      "d": "Heated strongly"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Filtration only separates intact cells from cell debris or free virus, but does not release intracellular virions.",
+      "b": "Correct. Lysing the cells (via freeze-thawing, sonication, or chemical lysis) breaks open the host cell membrane to release newly assembled virions that are still inside the cell.",
+      "c": "Incorrect. Freezing can store cells but does not release virions unless followed by thawing or lysis.",
+      "d": "Incorrect. Strong heat will denature viral proteins and inactivate the virus, making it impossible to measure infectious titer."
+    }
+  }
+]
