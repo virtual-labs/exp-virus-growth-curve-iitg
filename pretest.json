@@ -1,0 +1,162 @@
+[
+  {
+    "question": "The one-step growth curve experiment is used to study:",
+    "answers": {
+      "a": "Bacterial metabolism",
+      "b": "Viral replication cycle",
+      "c": "Antibiotic resistance",
+      "d": "Fungal growth"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Bacterial metabolism is studied using spectrophotometry, biochemical assays, or growth curve studies on nutrient media.",
+      "b": "Correct. The one-step growth curve is designed to analyze the kinetics of a single cycle of viral replication within host cells.",
+      "c": "Incorrect. Antibiotic resistance is typically studied using disc diffusion assays or minimum inhibitory concentration (MIC) tests.",
+      "d": "Incorrect. Fungal growth is measured by mycelial dry weight or cell colony counting on specialized media."
+    }
+  },
+  {
+    "question": "The one-step growth curve was first described by:",
+    "answers": {
+      "a": "Louis Pasteur",
+      "b": "Robert Koch",
+      "c": "Max Delbrück and Emory Ellis",
+      "d": "Alexander Fleming"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. Louis Pasteur is known for principles of vaccination, microbial fermentation, and pasteurization.",
+      "b": "Incorrect. Robert Koch formulated Koch's postulates to identify the causative agents of specific infectious diseases.",
+      "c": "Correct. Max Delbrück and Emory Ellis developed the one-step growth curve in 1939 using bacteriophages infecting E. coli host cells.",
+      "d": "Incorrect. Alexander Fleming discovered the first broadly effective antibiotic substance, penicillin."
+    }
+  },
+  {
+    "question": "A high multiplicity of infection (MOI) is used to:",
+    "answers": {
+      "a": "Ensure simultaneous infection of host cells",
+      "b": "Reduce viral infection",
+      "c": "Kill host cells immediately",
+      "d": "Prevent adsorption"
+    },
+    "correctAnswer": "a",
+    "explanations": {
+      "a": "Correct. A high MOI (typically 5 to 10 or more viral particles per host cell) ensures that virtually 100% of the host cells are infected synchronously at the start of the experiment.",
+      "b": "Incorrect. High MOI increases, rather than decreases, the percentage of host cells that get infected.",
+      "c": "Incorrect. While cells eventually lyse, the primary goal of high MOI is synchronization of infection, not immediate cell death.",
+      "d": "Incorrect. High MOI facilitates rapid and complete adsorption of viruses to host receptors."
+    }
+  },
+  {
+    "question": "The attachment of a virus to host cell receptors is called:",
+    "answers": {
+      "a": "Penetration",
+      "b": "Assembly",
+      "c": "Adsorption",
+      "d": "Release"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. Penetration is the subsequent step where the viral genome or capsid enters the host cell cytoplasm.",
+      "b": "Incorrect. Assembly is the late-stage process where synthesized viral genomes and structural proteins join to form new virions.",
+      "c": "Correct. Adsorption is the specific initial binding between viral surface proteins and host cell surface receptors.",
+      "d": "Incorrect. Release is the final step where newly assembled virions exit the host cell via lysis or budding."
+    }
+  },
+  {
+    "question": "During the eclipse period:",
+    "answers": {
+      "a": "Viruses are released from the cell",
+      "b": "Infectious virions are not detectable",
+      "c": "Host cells multiply rapidly",
+      "d": "Viral titer increases sharply"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Viral release happens much later during the rise (burst) period.",
+      "b": "Correct. During the eclipse period, the virus uncoats to release its genome; therefore, no complete, intact, infectious virions can be detected inside or outside the cell.",
+      "c": "Incorrect. Host cell division is typically halted or suppressed upon successful viral infection.",
+      "d": "Incorrect. The viral titer remains at zero or at base levels because infectious particles have disassembled."
+    }
+  },
+  {
+    "question": "The latent period ends with:",
+    "answers": {
+      "a": "Release of new virions",
+      "b": "Viral genome integration",
+      "c": "Viral adsorption",
+      "d": "Host cell division"
+    },
+    "correctAnswer": "a",
+    "explanations": {
+      "a": "Correct. The latent period spans from initial infection until the first newly assembled extracellular virions are released outside the host cell.",
+      "b": "Incorrect. Genome integration occurs early in the replication cycle (for lysogenic or temperate viruses) and does not mark the end of the latent phase.",
+      "c": "Incorrect. Viral adsorption is the very first step of the entire infection cycle.",
+      "d": "Incorrect. Host cell division does not resume; rather, host cell lysis or budding takes place."
+    }
+  },
+  {
+    "question": "The sudden increase in viral count is known as the:",
+    "answers": {
+      "a": "Eclipse phase",
+      "b": "Adsorption phase",
+      "c": "Burst (rise) phase",
+      "d": "Plateau phase"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Incorrect. The eclipse phase shows no detectable infectious virions.",
+      "b": "Incorrect. The adsorption phase is the initial binding period where titer remains constant or decreases as free viruses attach to cells.",
+      "c": "Correct. The burst or rise phase is characterized by a rapid, exponential increase in extracellular viral titer due to host cell lysis and virion release.",
+      "d": "Incorrect. The plateau phase is the final period where the viral count stabilizes after all host cells have lysed."
+    }
+  },
+  {
+    "question": "\"Burst size\" refers to the following:",
+    "answers": {
+      "a": "Size of the virus particle",
+      "b": "Number of viruses infecting one cell",
+      "c": "Duration of latent period",
+      "d": "Number of virions produced per infected cell"
+    },
+    "correctAnswer": "d",
+    "explanations": {
+      "a": "Incorrect. The physical size of a virus particle is its diameter, measured in nanometers.",
+      "b": "Incorrect. The number of viruses infecting a single cell is related to the multiplicity of infection (MOI).",
+      "c": "Incorrect. The duration of the latent period is a measurement of time (usually in minutes).",
+      "d": "Correct. Burst size is the average number of infectious virions released per single infected host cell, calculated as the ratio of total yielded virions to the number of infected cells."
+    }
+  },
+  {
+    "question": "Viral titer is commonly expressed as:",
+    "answers": {
+      "a": "CFU/mL",
+      "b": "PFU/mL",
+      "c": "Cells/mL",
+      "d": "mg/mL"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Colony-Forming Units per milliliter (CFU/mL) is used to quantify viable bacterial cells.",
+      "b": "Correct. Plaque-Forming Units per milliliter (PFU/mL) is the standard metric representing the concentration of infectious viral particles in a sample.",
+      "c": "Incorrect. Cells/mL is used to count eukaryotic or bacterial cells in a suspension.",
+      "d": "Incorrect. Milligrams per milliliter (mg/mL) measures mass concentration, not infectious particle counts."
+    }
+  },
+  {
+    "question": "Plaques in a plaque assay represent:",
+    "answers": {
+      "a": "Bacterial colonies",
+      "b": "Areas of cell death caused by viral infection",
+      "c": "Fungal growth",
+      "d": "Contaminated zones"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Incorrect. Bacterial colonies on solid media appear as opaque, raised spots, whereas plaques are clear zones of lysis.",
+      "b": "Correct. Plaques are clear, circular zones in a confluent host cell monolayer caused by localized lysis of host cells due to repeated cycles of viral infection and replication.",
+      "c": "Incorrect. Fungal growth appears as fuzzy, filamentous structures on agar.",
+      "d": "Incorrect. Plaques are expected experimental readouts of viral infectivity, not contamination."
+    }
+  }
+]

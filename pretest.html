@@ -1,0 +1,718 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITG',
+        'phase': 'Testing',
+        'expName': 'VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)',
+        'expShortName': 'virus-growth-curve'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="virus-growth-curve">
+    	<meta name="developer-institute" content="IITG">
+    	<meta name="learning-unit" content="VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)">
+    	<meta name="task-name" content="Pretest">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="virus-growth-curve" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)" page-type="assesment" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITG&quot;,&quot;expname&quot;:&quot;VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2 ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2  current-item ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2 ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2  current-item ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="virus-growth-curve-one-step-growth-curve">Virus Growth Curve (One-Step Growth Curve)</h2>
+          
+            </div>
+              <div id="quiz">
+                
+                
+                  <div class="question">
+                    The one-step growth curve experiment is used to study:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question0" value="a">
+                      a: Bacterial metabolism
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question0" value="b">
+                      b: Viral replication cycle
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question0" value="c">
+                      c: Antibiotic resistance
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question0" value="d">
+                      d: Fungal growth
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    The one-step growth curve was first described by:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question1" value="a">
+                      a: Louis Pasteur
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question1" value="b">
+                      b: Robert Koch
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question1" value="c">
+                      c: Max Delbrück and Emory Ellis
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question1" value="d">
+                      d: Alexander Fleming
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    A high multiplicity of infection (MOI) is used to:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question2" value="a">
+                      a: Ensure simultaneous infection of host cells
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question2" value="b">
+                      b: Reduce viral infection
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question2" value="c">
+                      c: Kill host cells immediately
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question2" value="d">
+                      d: Prevent adsorption
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    The attachment of a virus to host cell receptors is called:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question3" value="a">
+                      a: Penetration
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question3" value="b">
+                      b: Assembly
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question3" value="c">
+                      c: Adsorption
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question3" value="d">
+                      d: Release
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    During the eclipse period:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question4" value="a">
+                      a: Viruses are released from the cell
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question4" value="b">
+                      b: Infectious virions are not detectable
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question4" value="c">
+                      c: Host cells multiply rapidly
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question4" value="d">
+                      d: Viral titer increases sharply
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    The latent period ends with:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question5" value="a">
+                      a: Release of new virions
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question5" value="b">
+                      b: Viral genome integration
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question5" value="c">
+                      c: Viral adsorption
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question5" value="d">
+                      d: Host cell division
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    The sudden increase in viral count is known as the:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question6" value="a">
+                      a: Eclipse phase
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question6" value="b">
+                      b: Adsorption phase
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question6" value="c">
+                      c: Burst (rise) phase
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question6" value="d">
+                      d: Plateau phase
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    "Burst size" refers to the following:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question7" value="a">
+                      a: Size of the virus particle
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question7" value="b">
+                      b: Number of viruses infecting one cell
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question7" value="c">
+                      c: Duration of latent period
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question7" value="d">
+                      d: Number of virions produced per infected cell
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    Viral titer is commonly expressed as:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question8" value="a">
+                      a: CFU/mL
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question8" value="b">
+                      b: PFU/mL
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question8" value="c">
+                      c: Cells/mL
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question8" value="d">
+                      d: mg/mL
+                    </label>
+                      
+                  </div>
+                  
+                
+                  <div class="question">
+                    Plaques in a plaque assay represent:
+                  </div>
+                  
+                  <div class="answers">
+              <label>
+                <input type="radio" name="question9" value="a">
+                      a: Bacterial colonies
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question9" value="b">
+                      b: Areas of cell death caused by viral infection
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question9" value="c">
+                      c: Fungal growth
+                    </label>
+                      
+              <label>
+                <input type="radio" name="question9" value="d">
+                      d: Contaminated zones
+                    </label>
+                      
+                  </div>
+                  
+                
+                </div>  
+                <button id="submit" class="btn btn-primary">Submit Quiz</button>
+                <div id="results"></div>
+          </div>
+            
+            <script>
+              const myQuestions = [{"question":"The one-step growth curve experiment is used to study:","answers":{"a":"Bacterial metabolism","b":"Viral replication cycle","c":"Antibiotic resistance","d":"Fungal growth"},"correctAnswer":"b","explanations":{"a":"Incorrect. Bacterial metabolism is studied using spectrophotometry, biochemical assays, or growth curve studies on nutrient media.","b":"Correct. The one-step growth curve is designed to analyze the kinetics of a single cycle of viral replication within host cells.","c":"Incorrect. Antibiotic resistance is typically studied using disc diffusion assays or minimum inhibitory concentration (MIC) tests.","d":"Incorrect. Fungal growth is measured by mycelial dry weight or cell colony counting on specialized media."}},{"question":"The one-step growth curve was first described by:","answers":{"a":"Louis Pasteur","b":"Robert Koch","c":"Max Delbrück and Emory Ellis","d":"Alexander Fleming"},"correctAnswer":"c","explanations":{"a":"Incorrect. Louis Pasteur is known for principles of vaccination, microbial fermentation, and pasteurization.","b":"Incorrect. Robert Koch formulated Koch's postulates to identify the causative agents of specific infectious diseases.","c":"Correct. Max Delbrück and Emory Ellis developed the one-step growth curve in 1939 using bacteriophages infecting E. coli host cells.","d":"Incorrect. Alexander Fleming discovered the first broadly effective antibiotic substance, penicillin."}},{"question":"A high multiplicity of infection (MOI) is used to:","answers":{"a":"Ensure simultaneous infection of host cells","b":"Reduce viral infection","c":"Kill host cells immediately","d":"Prevent adsorption"},"correctAnswer":"a","explanations":{"a":"Correct. A high MOI (typically 5 to 10 or more viral particles per host cell) ensures that virtually 100% of the host cells are infected synchronously at the start of the experiment.","b":"Incorrect. High MOI increases, rather than decreases, the percentage of host cells that get infected.","c":"Incorrect. While cells eventually lyse, the primary goal of high MOI is synchronization of infection, not immediate cell death.","d":"Incorrect. High MOI facilitates rapid and complete adsorption of viruses to host receptors."}},{"question":"The attachment of a virus to host cell receptors is called:","answers":{"a":"Penetration","b":"Assembly","c":"Adsorption","d":"Release"},"correctAnswer":"c","explanations":{"a":"Incorrect. Penetration is the subsequent step where the viral genome or capsid enters the host cell cytoplasm.","b":"Incorrect. Assembly is the late-stage process where synthesized viral genomes and structural proteins join to form new virions.","c":"Correct. Adsorption is the specific initial binding between viral surface proteins and host cell surface receptors.","d":"Incorrect. Release is the final step where newly assembled virions exit the host cell via lysis or budding."}},{"question":"During the eclipse period:","answers":{"a":"Viruses are released from the cell","b":"Infectious virions are not detectable","c":"Host cells multiply rapidly","d":"Viral titer increases sharply"},"correctAnswer":"b","explanations":{"a":"Incorrect. Viral release happens much later during the rise (burst) period.","b":"Correct. During the eclipse period, the virus uncoats to release its genome; therefore, no complete, intact, infectious virions can be detected inside or outside the cell.","c":"Incorrect. Host cell division is typically halted or suppressed upon successful viral infection.","d":"Incorrect. The viral titer remains at zero or at base levels because infectious particles have disassembled."}},{"question":"The latent period ends with:","answers":{"a":"Release of new virions","b":"Viral genome integration","c":"Viral adsorption","d":"Host cell division"},"correctAnswer":"a","explanations":{"a":"Correct. The latent period spans from initial infection until the first newly assembled extracellular virions are released outside the host cell.","b":"Incorrect. Genome integration occurs early in the replication cycle (for lysogenic or temperate viruses) and does not mark the end of the latent phase.","c":"Incorrect. Viral adsorption is the very first step of the entire infection cycle.","d":"Incorrect. Host cell division does not resume; rather, host cell lysis or budding takes place."}},{"question":"The sudden increase in viral count is known as the:","answers":{"a":"Eclipse phase","b":"Adsorption phase","c":"Burst (rise) phase","d":"Plateau phase"},"correctAnswer":"c","explanations":{"a":"Incorrect. The eclipse phase shows no detectable infectious virions.","b":"Incorrect. The adsorption phase is the initial binding period where titer remains constant or decreases as free viruses attach to cells.","c":"Correct. The burst or rise phase is characterized by a rapid, exponential increase in extracellular viral titer due to host cell lysis and virion release.","d":"Incorrect. The plateau phase is the final period where the viral count stabilizes after all host cells have lysed."}},{"question":"\"Burst size\" refers to the following:","answers":{"a":"Size of the virus particle","b":"Number of viruses infecting one cell","c":"Duration of latent period","d":"Number of virions produced per infected cell"},"correctAnswer":"d","explanations":{"a":"Incorrect. The physical size of a virus particle is its diameter, measured in nanometers.","b":"Incorrect. The number of viruses infecting a single cell is related to the multiplicity of infection (MOI).","c":"Incorrect. The duration of the latent period is a measurement of time (usually in minutes).","d":"Correct. Burst size is the average number of infectious virions released per single infected host cell, calculated as the ratio of total yielded virions to the number of infected cells."}},{"question":"Viral titer is commonly expressed as:","answers":{"a":"CFU/mL","b":"PFU/mL","c":"Cells/mL","d":"mg/mL"},"correctAnswer":"b","explanations":{"a":"Incorrect. Colony-Forming Units per milliliter (CFU/mL) is used to quantify viable bacterial cells.","b":"Correct. Plaque-Forming Units per milliliter (PFU/mL) is the standard metric representing the concentration of infectious viral particles in a sample.","c":"Incorrect. Cells/mL is used to count eukaryotic or bacterial cells in a suspension.","d":"Incorrect. Milligrams per milliliter (mg/mL) measures mass concentration, not infectious particle counts."}},{"question":"Plaques in a plaque assay represent:","answers":{"a":"Bacterial colonies","b":"Areas of cell death caused by viral infection","c":"Fungal growth","d":"Contaminated zones"},"correctAnswer":"b","explanations":{"a":"Incorrect. Bacterial colonies on solid media appear as opaque, raised spots, whereas plaques are clear zones of lysis.","b":"Correct. Plaques are clear, circular zones in a confluent host cell monolayer caused by localized lysis of host cells due to repeated cycles of viral infection and replication.","c":"Incorrect. Fungal growth appears as fuzzy, filamentous structures on agar.","d":"Incorrect. Plaques are expected experimental readouts of viral infectivity, not contamination."}}];
+            </script>
+              <script src="./assets/js/assessment.js"></script>  
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)" page-type="assesment" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITG&quot;,&quot;expname&quot;:&quot;VIRUS GROWTH CURVE (ONE-STEP GROWTH CURVE)&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-virus-growth-curve-iitg/plugins/svc-rating/index.js"></script><script type="module" src="/exp-virus-growth-curve-iitg/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>
